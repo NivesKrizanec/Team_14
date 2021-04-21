@@ -17,6 +17,10 @@ open class User (_firstName : String, _lastName : String, _email : String, _pass
         return password
     }
 
+    fun getUserID(): String? {
+        return userID
+    }
+
     fun setUserID(_userID: String) {
         userID = _userID
     }
